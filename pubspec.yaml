@@ -1,0 +1,27 @@
+name: queen
+description: core app
+version: 0.0.1
+author: Ahmed Masoud
+# homepage:
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.0.0"
+
+dependencies:
+  easy_localization: ^3.0.0
+  edge_alerts: ^0.0.1
+  equatable: ^2.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^7.0.0
+  font_awesome_flutter: ^9.0.0
+  logger: ^1.0.0
+  queen_validators: ^0.2.3
+  shared_preferences: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.11.1
+
+flutter: null
