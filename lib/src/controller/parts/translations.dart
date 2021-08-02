@@ -14,11 +14,9 @@ mixin QTranslator on _QueenControllerImp {
   List<Locale> get supportedLocales => context.supportedLocales;
 
   List<LocalizationsDelegate<dynamic>> get localizationDelegates => context.localizationDelegates;
-  //  TODO :: use queen_validators isRtl
 
   bool get isRTL => locale.languageCode == 'ar';
 
-  //  TODO :: use queen_validators isLTR
   /// *
   bool get isLTR => !isRTL;
 
