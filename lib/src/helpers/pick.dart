@@ -40,12 +40,11 @@ class Pick {
     }
   }
 
-
-  Future<LocationResult?> locationFromMap(BuildContext context ,{
+  static Future<LocationResult?> locationFromMap(
+    BuildContext context, {
     required String key,
-    LatLng  initialCenter = const  LatLng(  45.521563,    -122.677433),
-
-})async{
+    LatLng initialCenter = const LatLng(45.521563, -122.677433),
+  }) async {
     return showLocationPicker(
       context,
       key,
