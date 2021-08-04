@@ -2,6 +2,7 @@ name: queen
 description: core app
 version: 0.0.1
 author: Ahmed Masoud
+publish_to: "none"
 # homepage:
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -23,7 +24,8 @@ dependencies:
   # * assets picker
   wechat_assets_picker: ^6.0.0
   google_maps_flutter: ^2.0.6
-  google_map_location_picker: ^4.1.7
+  google_map_location_picker:
+    git: git://github.com/blbhargav/google_map_location_picker.git
 
 dev_dependencies:
   flutter_test:
