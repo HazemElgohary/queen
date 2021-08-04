@@ -25,7 +25,9 @@ dependencies:
   wechat_assets_picker: ^6.0.0
   google_maps_flutter: ^2.0.6
   google_map_location_picker:
-    git: git://github.com/blbhargav/google_map_location_picker.git
+    git:
+      url: git://github.com/athul-ain/google_map_location_picker.git
+      ref: 0eca611
 
 dev_dependencies:
   flutter_test:
