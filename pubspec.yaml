@@ -21,7 +21,9 @@ dependencies:
   shared_preferences: ^2.0.5
 
   # * assets picker
-  wechat_assets_picker: ^5.5.8
+  wechat_assets_picker: ^6.0.0
+  google_maps_flutter: ^2.0.6
+  google_map_location_picker: ^4.1.7
 
 dev_dependencies:
   flutter_test:
