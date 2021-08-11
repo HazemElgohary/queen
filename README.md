@@ -15,11 +15,16 @@ queen:
 
 # Parts
 
-- [x] context Less navaigation (support emded navigator but it requires context) - replace - to - replaceAll -
-- [x] localization (powerd by easy_locaization) - String.trs - String.tr(args) - context.locale - context.setLocale
+- [x] context Less navaigation (support emded navigator but it requires context)
+  - [ ] replace
+  - [ ] to
+  - [ ] replaceAll
+- [x] localization (powerd by easy_locaization)
+  - [ ] String.trs
+  - [ ] String.tr(args)
+  - [ ] context.locale
+  - [ ] context.setLocale
 - [x] alerts (powerd by edge_alerts)
   - [ ] alertWithSucess(String)
   - [ ] alertWithErr(String)
-- [ ]
 - [ ] comman dilaogs
-- [ ]
