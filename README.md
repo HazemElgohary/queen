@@ -2,7 +2,14 @@
 
 # Motivation
 
-Boilerplate code to save time for comman tasks in day 2 day work
+Boilerplate code to save time for common tasks in day 2 day work
+
+# Minimum Requirements
+
+| key            | value  |
+| -------------- | ------ |
+| minSdkVersion  | 21     |
+| kotlin_version | 1.4.32 |
 
 # Usage
 
@@ -15,16 +22,16 @@ queen:
 
 # Parts
 
-- [x] context Less navaigation (support emded navigator but it requires context)
+- [x] context Less navigation (support embedded navigator but it requires context)
   - [ ] replace
   - [ ] to
   - [ ] replaceAll
-- [x] localization (powerd by easy_locaization)
+- [x] localization (powered by easy_locaization)
   - [ ] String.trs
   - [ ] String.tr(args)
   - [ ] context.locale
   - [ ] context.setLocale
-- [x] alerts (powerd by edge_alerts)
-  - [ ] alertWithSucess(String)
+- [x] alerts (powered by edge_alerts)
+  - [ ] alertWithSuccess(String)
   - [ ] alertWithErr(String)
-- [ ] comman dilaogs
+- [ ] comma dialogs
